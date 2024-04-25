@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legacy Prime Wagyu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffa768fc;
+        
+            color: #333;
+            margin: 0;
+            padding-top: 60px; /* For fixed header */
+            display: flex; /* Aligns content vertically */
+            flex-direction: column; /* Stack content vertically */
+            align-items: center; /* Center content horizontally */
+            min-height: 100vh; /* Full viewport height */
+        }
+        header {
+            
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: #333;
+            color: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,.3);
+            z-index: 1000;
+        }
+        header nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        header nav ul li {
+            display: inline-block;
+        }
+        header nav ul li a {
+            display: block;
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        header nav ul li a:hover {
+            background-color: #111;
+        }
+        h1, p {
+            text-align: center;
+        }
+        .product-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center; /* Center align products */
+            width: 100%; /* Full width */
+            padding: 20px;
+        }
+        .product {
+            width: 30%;
+            margin: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            padding: 20px;
+            background: #fff;
+            text-align: center; /* Center text and content in product */
+        }
+        .product:hover {
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+       
+        
+    </style>
+</head>
+<body>
+    <header>
+        
+        <nav>
+            <ul>
+                <li><a href="legacyprime.html">Home</a></li>
+                <li><a href="checkout.html">Checkout</a></li>
+                <li><a href="Resume.html">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <img src="photos/LegacyPrime logo.jpg" alt="Legacy Prime Wagyu Logo" id="logo">
+    <h1>Legacy Prime Wagyu</h1>
+    <p>Welcome to Legacy Prime Wagyu! We specialize in high-quality Wagyu beef. Stay tuned for more updates on our products.</p>
+    
+    
+        
+        <div class="product-container">
+            <div class="product">
+                <img src="photos/194775408_340336167754498_1554165636997371241_n.jpg" alt="Prime Wagyu Cut">
+                <h3>Birkshire Pork Chops</h3>
+                <h3>$15.25/lb</h3>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="photos/126119393_188710489583734_1109137970955258928_n.jpg" alt="Prime Wagyu Cut">
+                <h3>Wagyu Sirloin</h3>
+                <h3>$31.99/lb</h3>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="photos/116802152_135484734906310_2531093352037734024_n.jpg" alt="Prime Wagyu Cut">
+                <h3>Wagyu Ribeye</h3>
+                <h3>$35.99/lb</h3>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+        </div>
+
+    
+</body>
+</html>
